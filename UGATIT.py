@@ -105,7 +105,7 @@ class UGATIT(object) :
         #==============================================
         #데이터셋 추가
         if self.colab == True:
-            dataset = "/content/UGATIT_Pytorch/dataset/"
+            dataset = "/content/UGATIT_Pytorch_Test/dataset/"
         else:
             dataset = "dataset"
 
