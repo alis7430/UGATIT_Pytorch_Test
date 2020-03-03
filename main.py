@@ -45,9 +45,9 @@ def parse_args():
 
 
     #검은사막
-    parser.add_argument('--dataset', type=str, default='wild2black', help='dataset_name')
+    parser.add_argument('--dataset', type=str, default='wild2black/1', help='dataset_name')
     #얼룩말
-    #parser.add_argument('--dataset', type=str, default='horse2zebra', help='dataset_name')
+    #parser.add_argument('--dataset', type=str, default='horse2zebra/1', help='dataset_name')
 
 
 
