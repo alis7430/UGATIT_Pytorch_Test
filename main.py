@@ -37,7 +37,7 @@ def parse_args():
     parser.add_argument('--resume', type=str2bool, default=False)
 
     #코랩 사용 시: True
-    parser.add_argument('--colab', type=bool, default=False)
+    parser.add_argument('--colab', type=bool, default=True)
 
     # 코랩 사용 시: 결과 드라이브 변경 (그냥 써도 되지만 세션이 끊기면 사라짐)
     #parser.add_argument('--result_dir', type=str, default='results', help='Directory name to save the results')
